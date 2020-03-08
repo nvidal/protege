@@ -487,6 +487,12 @@ public class UsageByEntityTreeModel extends DefaultTreeModel implements UsageTre
 
         public void visit(SWRLRule rule) {
         }
+
+        @Override
+        public void visit(OWLMetamodellingAxiom arg0) {
+            // TODO Metamodelling
+
+        }
     }
 
 

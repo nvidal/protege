@@ -704,6 +704,12 @@ public class OWLObjectStyledStringRenderer {
             builder.append(")");
         }
 
+        @Override
+        public void visit(OWLMetamodellingAxiom arg0) {
+            // TODO Metamodelling
+
+        }
+
     }
 
 }

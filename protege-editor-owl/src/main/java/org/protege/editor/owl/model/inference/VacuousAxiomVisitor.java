@@ -265,6 +265,12 @@ public class VacuousAxiomVisitor implements OWLAxiomVisitorEx<Boolean> {
 	public Boolean visit(SWRLRule rule) {
 		return false;
 	}
+
+	@Override
+	public Boolean visit(OWLMetamodellingAxiom arg0) {
+		// TODO Metamodelling
+		return null;
+	}
 	
 
 
